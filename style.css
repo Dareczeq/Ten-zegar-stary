@@ -1,0 +1,115 @@
+body{
+    background-color: #FCF7D8;
+}
+#naglowek{
+    text-align: center;
+    background-color: #99A98F;
+    font-style: italic;
+    border-top: 1px solid #84927b;
+    border-bottom: 1px solid #84927b;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+    color: crimson;
+}
+#lewo{
+    float: left;
+        width: 21%;
+        margin-left: 1%;
+        margin-right: 3%;
+        margin-top: 7%;
+        background-color: #AAC8A7;
+        border-radius: 10px;
+        border: dashed 2px #69826976;
+        padding: 10px;
+        font-size: 22px;
+}
+#srodek{
+    margin-top: 2%;
+    width: 48%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px dotted black;
+    border-radius: 20px;
+}
+#prawo{
+    float: right;
+    margin-top: 10%;
+    width: 23%;
+    height: 100%;
+    border: 3px dashed silver;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+img{
+    margin-left: 15%;
+}
+footer{
+        text-align: center;
+        background-color: #99A98F;
+        padding: 3px;
+        font-size: 20px;
+        font-weight: 600;
+        clear: both;
+        margin-top: 15px;
+}
+#notka{
+    font-size: 130%;
+}
+#notka1{
+    font-size: 110%;
+}
+ul{
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+    height: 40px;
+    font-size: 25px;
+}
+ul#menu li{
+    display: inline;
+}
+ul>li{
+    border-right: 2px red dotted;
+    margin-right: 1px;
+    padding: 1%;
+}
+ul>li:first-child{
+    border-left: 2px red dotted;
+}
+#srodek1{
+    margin-top: 0%;
+    width: 80%;
+    margin-left: 15%;
+}
+
+#lewo1{
+    float: left;
+        width: 21%;
+        margin-left: 1%;
+        margin-right: 3%;
+        margin-top: 5%;
+        background-color: #AAC8A7;
+        border-radius: 10px;
+        border: dashed 2px #69826976;
+        padding: 10px;
+        font-size: 22px;
+}
+#imydz{
+    text-align: center;
+    border: 2px dotted black;
+    border-radius: 5%;
+    margin-top: 0%;
+    width: 90%;
+}
+#input{
+    width: 50%;
+    margin-top:10%;
+    margin-left: 15%;
+}

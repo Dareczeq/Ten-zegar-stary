@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ten zegar stary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="naglowek">
+        <h1 style="font-size: 50px;">Ten zegar stary</h1>
+        <ul id="menu">
+            <li><a href="glowna.html">Strona główna</li></a>
+            <li><a href="kwarc.html">Zegar kwarcowy</li></a>
+            <li><a href="wychwyt.html">Zegar wychwytowy</li></a>
+        </ul>
+ </header>
+ <section id="lewo1">
+    <h2>Informacje:</h2>
+    <p id="info">Aby wyświetlić informacje z danego roku należy wpisać interesujący nas rok w pole nad osią czasu. *Rok pne. należy wpisać jako liczbę ujemną ne. jako zwykłą. </p>
+
+ </section>
+ 
+ <section id="srodek1">
+     <input type="number" id="input" style="height: 30px;">
+     <button onclick="wypisz()" style="height: 36px;">Potwierdź</button>
+    <img id="imydz" src="timeline.png">
+    </section>
+ <footer id="footer">
+    <p>Stronę opracował: Dariusz Kula 3TP</p>
+ </footer>
+    <script>
+        const daty = [];
+        daty[-3500]="Pierwszy zegar słoneczny - 3500pne.";
+        daty[-2000]="Zbudowanie Stonehenge - 2000pne.";
+        daty[-1400]="Odmierzanie czasu za pomocą spalanie oleju, kadzidła czy świec - 1400pne.";
+        daty[-742]="Pierwsze odkrycie zegara słonecznego - 742 pne.";
+        daty[-300]="Proste koła zębate - 300pne.";
+        daty[300]="Używanie klepsydr - 300ne.";
+        daty[885]="Odmierzanie czasu przez spalanie świecy - 885ne.";
+        daty[1092]="Pierwszy zegar wodny - 1092ne.";
+        daty[1368]="Pierwszy zegarmistrzowie - 1368pne.";
+        daty[1490]="Pierwsza sprężyna napędowa - 1490ne.";
+        daty[1500]="Pierwsze zegary stołowe - 1500ne.";
+        daty[1510]="Pierwszy mechaniczy zegarek przypinany np. do paska - 1510ne.";
+        daty[1530]="Najstarszy zachowany zegar mechaniczny - 1530ne.";
+        daty[1540]="Powstawały coraz mniejsze modele zegarków - 1540ne.";
+        daty[1541]="Pierwszy zegar wieżowy na wieży pałacu Hampton Court w Anglii - 1541ne.";
+        daty[1577]="Opracowanie wskazówki minutowej - 1577ne.";
+        daty[1581]="Odkrycie właściwości wahadła - 1581ne.";
+        daty[1587]="Genewa jako kwitnący dom przemysłu zegarmistrzowskiego - 1587ne.";
+        daty[1610]="Szkło ochronne na zegarki - 1610ne.";
+        daty[1635]="Pierwsze emaliowane tarcze zegarowe - 1635ne.";
+        daty[1657]="Pierwszy zegar sterowany przez wahadło - 1657ne.";
+        daty[1671]="Wprowadzenie sprężyny wahadłowej do zegarków - 1671ne.";
+        daty[1676]="Prace nad mechaniznem powtarzającym w zegarkach oraz prezentacja koncentrycznej wskazówki - 1676ne.";
+        daty[1704]="Rubiny i szafiry jako ozdobne łożyska na osi balansu - 1704ne.";
+        daty[1720]="Wiele ważnych wynalazków dla dziedziny zegarmistrzostwa takie jak wahadło z kompensacją grid-iron lub układ cylinder escapement - 1720ne.";
+        daty[1760]="Zwiększenie dokładności tanich zegarków poprzez temperaturowo kompensowane koło balansowe - 1760ne.";
+        daty[1785]="Stworzenie ukłądu wyłączającego dźwigniowego - 1785ne.";
+        daty[1840]="Pierwszy zegar elektryczny - 1840ne.";
+        daty[1858]="Utworzenie Brytyjskiego Instytutu Horologicznego - 1858ne.";
+        daty[1880]="Standaryzacja stref czasowych - 1880ne.";
+        daty[1895]="Pierwszy nowoczesny zegar elektryczny który stał się podstawą do zegarów tworzonych dzisiaj - 1895ne.";
+        daty[1900]="Masowa produkcja zegarków osobistych - 1900ne.";
+        daty[1905]="Sygnały czasu radiowego z Waszyngtonu pomagały odnajdywać się statkom - 1905ne.";
+        daty[1916]="Wprowadzenie czasu letniego - 1916ne.";
+        daty[1945]="Propozycja używania oscylacji atomów do tworzenia bardziej precyzyjnych zegarków - 1945ne.";
+        daty[1949]="Stworzenie pierwszego zegaru atomowego - 1949ne.";
+        daty[1967]="Sekunda została zdefiniowana jako 9 192 631 770 drgań cezu - 1967ne.";
+        daty[1990]="Niebywała ilość sprzedaży zegarków sięgająca aż pół miliarda co roku - 1990ne.";
+        daty[2023]="Dzisiaj - 2023ne.";
+
+        function wypisz()
+        {
+           var valju = document.getElementById("input").value;
+           document.getElementById("info").innerHTML = daty[valju];         
+        }
+
+    </script>
+</body>
+</html>
